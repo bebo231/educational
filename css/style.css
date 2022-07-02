@@ -12,6 +12,7 @@ body{
     background: url(snowing-snow.gif) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 1000vh;
 }
 
