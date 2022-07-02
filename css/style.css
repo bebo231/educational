@@ -110,9 +110,13 @@ header label{
         background-color: #FFF;
         border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
-        
-
+        height: 1000vh;
     }
+
+   
+
+
+
     header .navbar ul li{
         width: 100%;
     }
