@@ -153,6 +153,13 @@ ul li:hover .dropdown{
     display: none;
 }
 
+.test{
+    background: #f7f7f7;
+    padding:20px 2%;
+    position: relative;
+    height: 100%;
+}
+
 
 @media (max-width: 767px){
     ul{
@@ -181,6 +188,15 @@ ul li:hover .dropdown{
 
     .menu-content{
         display: none;
+    }
+
+    .menu-content ul li span{
+        display: none;
+    }
+
+    .logo{
+        float: left;
+        line-height: 10px;
     }
 
     .menu-header{
