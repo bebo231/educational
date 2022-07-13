@@ -11,3 +11,11 @@ $('.dropbtn2').click(function(){
 $('.fa-bars').click(function(){
     $('.menu-content').toggle();
 })
+
+
+var typed = new Typed(".auto-type",{
+    strings: ["Website Educational", "يسهل عملية التعلم"],
+    typeSpeed: 150,
+    backSpeed: 50,
+    loop: true
+})
