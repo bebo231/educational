@@ -11,17 +11,16 @@ a{
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
-}
 
-.menu-content ul{
+ul{
     margin: 0;
     display: flex;
     background-color: #272727;
     line-height: 20px;
     padding: 0 30px ;
+    list-style: none;
 }
+
 
 iframe{
     width: 100%;
@@ -198,6 +197,7 @@ ul li:hover .dropdown{
         width: 100%;
     }
 
+    
     .dropdown , .dropdown2{
         position: relative;
         left: 0;
@@ -255,9 +255,10 @@ ul li:hover .dropdown{
     .right{
         display: none;
     }
+
     .banner span{
-    font-size: 20px;
-    font-weight: 500;
-}
+        font-size: 20px;
+        font-weight: 500;
+    }
 
 }
