@@ -30,21 +30,28 @@ iframe{
 
 .logo{
     color: rgb(128, 164, 241);
-    padding: 10px;
-    display: block;
-    text-align: center;
-    font-size: 20px;
+    
+    font-size: 30px;
+    
+    padding-bottom: 10px;
 }
 
+ul li img{
+    width: 30px;
+    height: 30px;
+    padding:0 10px;
+    
+}
+
+
 ul li{
-    width: 100%;
     text-align: center;
     position: relative;
-    padding: 10px;
+    padding: 20px;
 }
 
 ul li a{
-
+    width: 100%;
     text-transform: uppercase;
     padding: 10px;
     display: block;
@@ -58,7 +65,7 @@ ul li a:hover{
 .dropdown{
     position: absolute;
     text-align: center;
-    width: 70%;
+    width: 150%;
     flex-wrap: wrap;
     transition: all 0.3s ease;
     left: 0;
@@ -73,6 +80,10 @@ ul li:hover .dropdown{
     top: 100%;
 }
 
+ul li i{
+    padding-left: 10px;
+}
+
 .dropdown2{
     position: absolute;
     left: 150%;
@@ -81,7 +92,7 @@ ul li:hover .dropdown{
     flex-wrap: wrap;
     transition: all 0.3s ease;
     visibility: hidden;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .dropdown li:hover .dropdown2{
@@ -92,6 +103,7 @@ ul li:hover .dropdown{
 .menu-header{
     display: none;
 }
+
 
 
 
@@ -131,7 +143,6 @@ ul li:hover .dropdown{
     grid-row-gap: 3%;
     margin-top: 15px;
 }
-
 
 
 .vid-list .flex-div{
@@ -192,6 +203,13 @@ ul li:hover .dropdown{
         width: 100%;
     }
 
+    .menu-header img{
+        width: 30px;
+        height: 30px;
+        padding:0 10px;
+        float: left;
+        
+    }
     
     .dropdown , .dropdown2{
         position: relative;
@@ -201,6 +219,7 @@ ul li:hover .dropdown{
         visibility: visible;
         display: none;
         z-index: 1;
+        width: 80%;
         
     }
 
@@ -216,13 +235,14 @@ ul li:hover .dropdown{
         display: none;
     }
 
-    .menu-content ul li span{
+    .menu-content ul li span,
+    .menu-content ul li img{
         display: none;
     }
 
     .logo{
         float: left;
-        line-height: 10px;
+        line-height: 25px;
     }
 
     .menu-header{
