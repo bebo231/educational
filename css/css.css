@@ -132,21 +132,16 @@ ul li:hover .dropdown{
     margin-top: 15px;
 }
 
-.vid-list .thumbnail{
-    width: 100%;
-    border-radius: 5px;
 
-}
 
 .vid-list .flex-div{
     align-items: flex-start;
     margin-top: 7px;
 }
 
-.vid-list .flex-div img{
-    width: 35px;
-    margin-right: 10px;
-    border-radius: 50%;
+.vid-list img{
+    width: 100%;
+    border-radius: 5px;
 }
 
 .vid-info{
@@ -245,7 +240,7 @@ ul li:hover .dropdown{
     }
 
     .list-container{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
     
     .down{
