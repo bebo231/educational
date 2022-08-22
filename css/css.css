@@ -24,8 +24,9 @@ ul{
 
 iframe{
     width: 100%;
-    height: 500px;
+    height: 450px;
     display: flex;
+    border-radius: 15px;
 }
 
 .logo{
@@ -109,15 +110,15 @@ ul li i{
 
 .container{
 
-    padding:20px 2%;
+    padding: 25px 2%;
     position: relative;
     height: 100%;
 }
 
 .banner{
     width: 100%;
-    height: 500px;
-    border-radius: 5px;
+    height: 450px;
+    border-radius: 15px;
     background-color: black;
     color: #fff;
     justify-content: center;
@@ -128,7 +129,8 @@ ul li i{
 
 .banner img{
     width: 100%;
-    height: 500px;
+    height: 450px;
+    border-radius: 15px;
 }
 
 .banner span{
@@ -139,40 +141,32 @@ ul li i{
 
 .list-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-column-gap: 2%;
-    grid-row-gap: 3%;
+    grid-row-gap: 10%;
     margin-top: 15px;
 }
 
 
-.vid-list .flex-div{
-    align-items: flex-start;
-    margin-top: 7px;
-}
-
-.vid-list img{
+button{
+    border-radius: 10px;
     width: 100%;
-    border-radius: 5px;
+    height: 50px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(138,45,253,1) 100%);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
 }
 
-.vid-info{
-    color: #cac8c8;
-    font-size: 16px;
-    text-align: right;
+button:hover{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(237,29,253,1) 53%, rgba(252,176,69,1) 95%);
 }
 
-.vid-info a{
 
-    font-weight: 600;
-    display: block;
-    margin-bottom: 5px;
-}
 
-.vid-info a:hover{
-    font-weight: bold;
-    color: cadetblue;
-}
+
 
 .down{
     display: none;
